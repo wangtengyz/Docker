@@ -1,0 +1,17 @@
+@each $num in 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36, 40 {
+	.r-fs-#{$num} {
+		font-size: #{$num}px;
+	}
+}
+
+@each $num in 400, 500, 600, 700 {
+	.r-fw-#{$num} {
+		font-weight: #{$num};
+	}
+}
+
+@each $num in 14, 16, 18, 20, 24, 26, 28, 30, 32, 36, 40, 48, 56 {
+	.r-lh-#{$num} {
+		line-height: #{$num}px;
+	}
+}

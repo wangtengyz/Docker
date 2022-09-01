@@ -1,0 +1,38 @@
+$white: #fff;
+$black: #000;
+$primary: #0089fa;
+$error: #e63e35;
+$success: #67c23a;
+$warning: #f90;
+$gray: #909399;
+$ccc: #ccc;
+$cf1: #f1f1f1;
+$cf2: #f2f2f2;
+$cf5: #f5f5f5;
+$c333: #333;
+$c666: #666;
+$c999: #999;
+
+@each $name, $value in (
+	black: $black,
+	white: $white,
+	primary: $primary,
+	success: $success,
+	warning: $warning,
+	error: $error,
+	gray: $gray,
+	ccc: $ccc,
+	f1: $cf1,
+	f2: $cf2,
+	f5: $cf5,
+	333: $c333,
+	666: $c666,
+	999: $c999
+	) {
+	.r-c-#{$name} {
+		color: #{$value};
+	}
+	.r-bg-#{$name} {
+		background-color: #{$value};
+	}
+}

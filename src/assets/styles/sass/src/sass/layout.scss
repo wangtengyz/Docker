@@ -1,0 +1,57 @@
+@each $num in 0, 2, 4, 5, 6, 8, 10, 12, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36, 40, 48 {
+	.r-mt-#{$num} {
+		margin-top: #{$num}px;
+	}
+	.r-mr-#{$num} {
+		margin-right: #{$num}px;
+	}
+	.r-mb-#{$num} {
+		margin-bottom: #{$num}px;
+	}
+	.r-ml-#{$num} {
+		margin-left: #{$num}px;
+	}
+	.r-m-#{$num} {
+		margin: #{$num}px;
+	}
+	.r-m-lr-#{$num} {
+		margin-left: #{$num}px;
+		margin-right: #{$num}px;
+	}
+	.r-m-tb-#{$num} {
+		margin-top: #{$num}px;
+		margin-bottom: #{$num}px;
+	}
+}
+
+@each $num in 0, 2, 4, 5, 6, 8, 10, 12, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36, 40, 48 {
+	.r-pt-#{$num} {
+		padding-top: #{$num}px;
+	}
+	.r-pr-#{$num} {
+		padding-right: #{$num}px;
+	}
+	.r-pb-#{$num} {
+		padding-bottom: #{$num}px;
+	}
+	.r-pl-#{$num} {
+		padding-left: #{$num}px;
+	}
+	.r-pd-#{$num} {
+		padding: #{$num}px;
+	}
+	.r-pd-lr-#{$num} {
+		padding-left: #{$num}px;
+		padding-right: #{$num}px;
+	}
+	.r-pd-tb-#{$num} {
+		padding-top: #{$num}px;
+		padding-bottom: #{$num}px;
+	}
+}
+
+@each $radius in 0, 2, 4, 6, 8, 10, 12, 16 {
+	.r-br-#{$radius} {
+		border-radius: #{$radius}px;
+	}
+}

@@ -1,0 +1,79 @@
+{
+  "_from": "@raycloud/sass@^1.0.8",
+  "_id": "@raycloud/sass@1.0.13",
+  "_inBundle": false,
+  "_integrity": "sha512-1pwM2U0IQfByYuAeg7sqxoO7zrDTadQc47qJuBM+FN7zG78kmL4Z8RBxa4lF54nBu0Gdxig9K++dddqxJi9SRg==",
+  "_location": "/@raycloud/sass",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@raycloud/sass@^1.0.8",
+    "name": "@raycloud/sass",
+    "escapedName": "@raycloud%2fsass",
+    "scope": "@raycloud",
+    "rawSpec": "^1.0.8",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://npmjs.kuaidizs.cn/@raycloud%2fsass/-/sass-1.0.13.tgz",
+  "_shasum": "cc0e4c99de44be7711d8328e3ea0de94f4b607cf",
+  "_spec": "@raycloud/sass@^1.0.8",
+  "_where": "/Users/wangteng/Documents/demo/superboss-design-task-web",
+  "author": {
+    "name": "yefeng"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie < 9",
+    "last 2 versions",
+    "> 1%"
+  ],
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Sass公共样式库",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-load-plugins": "^2.0.5",
+    "gulp-px2rem-plugin": "^0.4.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^4.1.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "node-sass": "^4.14.1",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "lint-staged": {
+    "*.scss": [
+      "stylelint --fix --syntax scss",
+      "git add"
+    ]
+  },
+  "main": "index.min.css",
+  "name": "@raycloud/sass",
+  "repository": {
+    "type": "git",
+    "url": "http://npmjs.kuaidizs.cn/-/web/detail/@raycloud/sass"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "build-min": "gulp build-min",
+    "build-nopre": "gulp build-nopre",
+    "build-rem": "gulp build-rem"
+  },
+  "version": "1.0.13"
+}
