@@ -82,7 +82,7 @@ const SiderMenu: React.FC<SideMenuProps> = (props) => {
 			width={ 256 }
 			className={ styles.sider }
 		>
-			<div className={ styles.logo }>设计师后台</div>
+			<div className={ styles.logo }>Docker-Demo</div>
 			<Menu
 				key="Menu"
 				theme="dark"
