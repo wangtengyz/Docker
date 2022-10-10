@@ -3,7 +3,7 @@
  * @Author: voanit
  * @Date: 2022-08-31 11:28:19
  * @LastEditors: voanit
- * @LastEditTime: 2022-10-07 00:56:50
+ * @LastEditTime: 2022-10-10 19:11:44
  */
 import React, { useState } from "react";
 import { Button } from "antd";
@@ -15,7 +15,7 @@ const Home = () => {
 	return (
 		<div className={ classname(home.homeContainer) }>
 			<div className={ classname('r-pt-16 r-pb-20 r-pr-20 r-pl-20 r-bg-white') }>
-				首页demo-测试2
+				首页demo-测试3
 			</div>
 		</div>
 	);
